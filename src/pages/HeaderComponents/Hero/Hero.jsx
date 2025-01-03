@@ -1,10 +1,9 @@
-import React from 'react';
-import { name, socialProfiles } from '../../../info';
-import Navbar from '../Navbar/Navbar';
-import Typewriter from '../Typewriter/Typewriter';
-import './Hero.css';
-import { backgroundImageUrl } from '../../../info';
-
+import React from "react";
+import { name, socialProfiles } from "../../../info";
+import Navbar from "../Navbar/Navbar";
+import Typewriter from "../Typewriter/Typewriter";
+import "./Hero.css";
+import { backgroundImageUrl } from "../../../info";
 
 const Hero = () => {
   const { firstname, lastname } = name;
@@ -14,27 +13,29 @@ const Hero = () => {
   };
 
   return (
-    <section id='Home' className='hero-area' style={heroStyle}>
+    <section id="Home" className="hero-area" style={heroStyle}>
       <Navbar />
-      <div className='container'>
-        <div className='row align-items-center'>
-          <div className='hero-content'>
-            <div className='name-container wow fadeInLeft' data-wow-delay='.4s'>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="hero-content">
+            <div className="name-container wow fadeInLeft" data-wow-delay=".4s">
               <name>
-                <h1 className='first-name'>{firstname}</h1>
-                <h1 className='last-name'>{lastname}</h1>
+                <h1 className="first-name">{firstname}</h1>
+                <h1 className="last-name">{lastname}</h1>
               </name>
             </div>
-            <div className='typewriter-container wow fadeInLeft' data-wow-delay='.6s'>
+            <div
+              className="typewriter-container wow fadeInLeft"
+              data-wow-delay=".6s"
+            >
               <Typewriter />
-      
             </div>
-            <div className='btn-pos'>
+            <div className="btn-pos">
               {socialProfiles.map((profile, index) => (
                 <a
                   href={profile.url}
                   id={`button`}
-                  className='btn wow fadeInLeft'
+                  className="btn wow fadeInLeft"
                   data-wow-delay={`${index * 0.2 + 0.8}s`}
                   key={index}
                 >
