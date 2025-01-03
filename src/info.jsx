@@ -1,4 +1,4 @@
-const backgroundImageUrl = "./public/assets/images/hero.JPG";
+const backgroundImageUrl = "/assets/images/hero.JPG";
 
 const name = {
   firstname: "Kenneth",
