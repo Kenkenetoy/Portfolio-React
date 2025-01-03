@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "kenneth-aparece",
+=======
+  "name": "Kenneth Aparece",
+>>>>>>> df1d62f91cb92dd68cffd73a0d64cf6439c07c1d
   "private": true,
   "version": "0.0.0",
   "type": "module",
