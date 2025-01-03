@@ -1,6 +1,6 @@
 {
   "name": "Kenneth Aparece",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
